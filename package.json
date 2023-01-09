@@ -1,0 +1,24 @@
+{
+  "name": "teamschannelcreation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@pnp/common": "^1.3.2",
+    "@pnp/graph": "^1.3.2",
+    "@pnp/logging": "^1.3.2",
+    "@pnp/nodejs": "^1.3.2",
+    "@pnp/odata": "^1.3.2",
+    "@pnp/sp": "^1.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.2.2"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
